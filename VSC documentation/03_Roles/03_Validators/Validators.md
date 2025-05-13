@@ -4,7 +4,7 @@
 
 Validators are responsible for **securing the VSC network**, maintaining consensus, and validating all state changes — including deposits, withdrawals, and in-protocol actions like swaps or mapped transfers. They run the VSC validator software and participate in the consensus mechanism by **staking HIVE tokens**, which aligns their incentives with the integrity of the system.
 
-### Validator Responsibilities (NEEDS CONFIRMATION IF CORRECT)
+### Validator Responsibilities 
 
 - **Confirm asset deposits** from connected chains and reflect them in the VSC ledger.
 - **Validate in-protocol actions** (swaps, transfers, mint/burn logic) with precision.
@@ -16,16 +16,16 @@ Validators are responsible for **securing the VSC network**, maintaining consens
 
 Validators are the backbone of the trustless design in VSC. Because VSC doesn't rely on bridges or centralized actors, **honest validation** is key to keeping assets safe and operations decentralized. Their staking of HIVE ensures skin in the game and allows the protocol to slash or remove malicious actors.
 
-# VSC Node deployment (COPIED FROM EXISTING LINK ON NODE DEPLOYMENT https://github.com/vsc-eco/vsc-deployment)
+# VSC Node deployment 
 
 This repository hosts the Docker Compose file necessary for deploying the VSC node.
 
 ### Setup
 
 1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker compose v2](https://docs.docker.com/compose/install/).
-2. git clone https://github.com/vsc-eco/vsc-deploymentClone this repository as a normal user (not root/admin) to a desired location. It's crucial to ensure the Docker user has write permissions in the directory where you plan to initiate the Docker Compose file.
+2. git clone https://github.com/vsc-eco/vsc-deployment Clone this repository as a normal user (not root/admin) to a desired location. It's crucial to ensure the Docker user has write permissions in the directory where you plan to initiate the Docker Compose file.
 3. docker compose run initInitialize the configuration files
-4. Edit the config file located at ./data/config/identityConfig.jsonand be sure to add in your Hive username and active key
+4. Edit the config file located at ./data/config/identityConfig.json and be sure to add in your Hive username and active key
 5. docker compose up -dStart the Docker containers. This will add a GraphQL server on port 8080, a MongoDB instance on port 27021, and a libp2p connection on port 10720.
 
 ### Starting Up
