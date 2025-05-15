@@ -1,4 +1,4 @@
-# **Swappers: Execute Cross-Chain Asset Swaps**
+# Traders: Execute Cross-Chain Asset Swaps
 
 Swappers are users who wish to exchange one native asset for another, such as Bitcoin for Ethereum, without relying on centralized exchanges, wrapped assets, or synthetic tokens. VSC enables this through its in-protocol liquidity layer, which facilitates direct swaps between native assets in a decentralized, trust-minimized way.
 

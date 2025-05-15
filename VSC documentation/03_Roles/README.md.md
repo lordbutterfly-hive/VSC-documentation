@@ -1,4 +1,4 @@
-# **ROLES**
+# ROLES
 
 In the VSC ecosystem, there are several important roles:
 

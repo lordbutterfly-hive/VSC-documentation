@@ -1,4 +1,4 @@
-# **Introduction**
+# Introduction
 
 *Welcome to the official documentation for VSC (Virtual Smart Chain), the next evolution in cross-chain payment infrastructure.*
 
